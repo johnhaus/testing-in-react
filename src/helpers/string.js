@@ -1,3 +1,3 @@
 export function capitalize(word) {
-  return null;
+  return word;
 };
