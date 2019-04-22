@@ -1,3 +1,6 @@
 export function capitalize(word) {
-  return word;
-};
+  if (word === null) {
+    return null;
+  }
+  return word.toUpperCase();
+}
