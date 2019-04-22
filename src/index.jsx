@@ -3,14 +3,7 @@ import ReactDOM from 'react-dom';
 
 import '../assets/stylesheets/application.scss';
 
-const Hello = ({ name }) => {
-  return (
-    <div>
-      Hello,
-      {name}
-    </div>
-  );
-};
+import Hello from './components/hello';
 
 const root = document.getElementById('root');
 if (root) {
