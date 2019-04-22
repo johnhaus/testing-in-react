@@ -27,3 +27,7 @@ test('capitalize should handle a word already capitalized', () => {
 test('capitalize should handle a word in all caps', () => {
   expect(capitalize("WORD")).toBe("Word");
 });
+
+test('capitalize should handle a word in mixed case', () => {
+  expect(capitalize("wOrD")).toBe("Word");
+});
